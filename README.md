@@ -11,7 +11,7 @@ This project is a Flask web application for managing training programs and condu
 - [Usage](#usage)
 - [Database Models](#database-models)
 - [Contributing](#contributing)
-- [License](#license)
+  
 
 ## Introduction
 

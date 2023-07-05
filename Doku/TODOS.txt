@@ -1,0 +1,34 @@
+@Trainingpage 
+TODO:
+        - Weiter / Zurück  (nächste Frage , Hervorige)
+        - Abgabe Bestätigen  (Shoutbox)
+
+TODO: Edit Button für Trainings(done) 
+      ---- modifikation nicht möglich--- 
+
+@Training_progress 
+        - zeige Fortschritt an 
+
+@Professor dashboard
+        - vielleicht Inhalt eines Praktikums mit anzeigen lassen (vorschau)
+        
+@trainings_page
+        - Dreieckstest 
+        - Auswahltest ( Probename und Nr werden nicht weitergeben)
+        - Geruchserkennung ( form passt nicht , Auswahlliste der Gerüche)
+        - Konz_reihe ( form passt nicht)
+        - hed_beurteilung (form passt nicht)
+
+ENDE PROJEKT 
+TODO: Migration 
+TODO: Doku fertigstellen (Anforderungen, Gesamtplan, DB_Struktur)
+TODO: Requirments schreiben     
+TODO: Server  (Victoria)
+TODO: PRÄSENTATION 
+TODO: DOCSTRINGS
+
+
+
+
+
+
