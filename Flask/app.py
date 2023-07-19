@@ -491,8 +491,6 @@ def login():
             else:
                 user.last_activity = datetime.now()
                 user.aktiv = True
-                user.training_id = None
-                #user.training_id = None
                 db.session.commit()
                 flash('User ' + user.benutzername + ' wurde als Student angemeldet', 'success')
                 return redirect(url_for('student_waitingroom'))
@@ -1280,7 +1278,8 @@ def training_progress():
     if 'username' not in session:
         return render_template('login.html', error="Bitte loggen Sie sich ein, um auf diese Seite zugreifen zu können.")
     
-    training_id = Benutzer.query.filter_by(rolle=False, aktiv=True).first().training_id
+    #training_id = Benutzer.query.filter_by(rolle=False, aktiv=True).first().training_id
+    training_id = Benutzer.query.filter_by(rolle=False).first().training_id
 
     student_names = [student.benutzername for student in Benutzer.query.filter_by(rolle=False).all()]
 

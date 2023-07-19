@@ -92,9 +92,7 @@ body {
   }
 
   .form-label {
-    width: 120px;
-    text-align: right;
-    margin-right: 10px;
+    text-align: left;
   }
 
   .form-input {
